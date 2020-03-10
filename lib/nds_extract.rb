@@ -12,6 +12,7 @@ def directors_totals(nds)
   result = Hash.new {|h, k| h[k] = 0}
   while director_index < nds.length do
     director_name = nds[director_index][:name]
+    puts director_name
     movie_index = 0 
     movie_max= nds[director_index][:movies].length
     director_index+=1
