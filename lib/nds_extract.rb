@@ -3,6 +3,7 @@ require 'directors_database'
 
 def print_directors_database
   pp directors_database
+  #Here I'm printing out the worldwide gross for Spielberg because I want to see each individual component that I'm attempting to process.
   pp directors_database[0][:name]
   pp directors_database[0][:movies][0][:worldwide_gross]
   pp directors_database[0][:movies][1][:worldwide_gross]
