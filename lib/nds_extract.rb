@@ -14,10 +14,13 @@ def directors_totals(nds)
   while director_index < nds.length do
     director_name = nds[director_index][:name]
     movie_index = 0 
-    director_index+=1
     while movie_index < movie_max do
+      result =
         movie_index+=1
 end
+director_index+=1
+end
+  return result
 end
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
@@ -34,8 +37,6 @@ end
   #
   #
   # Be sure to return the result at the end!
-  puts 
-  result
-end
+
 
 print_directors_database
