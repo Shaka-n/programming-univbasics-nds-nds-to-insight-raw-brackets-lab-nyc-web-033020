@@ -3,8 +3,13 @@ require 'directors_database'
 
 def print_directors_database
   pp directors_database
-  pp directors_database[0][:movies][0][:worldwide_gross]
   pp directors_database[0][:name]
+  pp directors_database[0][:movies][0][:worldwide_gross]
+  pp directors_database[0][:movies][1][:worldwide_gross]
+  pp directors_database[0][:movies][2][:worldwide_gross]
+  pp directors_database[0][:movies][3][:worldwide_gross]
+  pp directors_database[0][:movies][4][:worldwide_gross]
+  pp directors_database[0][:movies][5][:worldwide_gross]
 end
 
 
