@@ -4,6 +4,7 @@ require 'directors_database'
 def print_directors_database
   pp directors_database
   pp directors_database[0][:movies][0][:worldwide_gross]
+  pp directors_database[0][:name]
 end
 
 
