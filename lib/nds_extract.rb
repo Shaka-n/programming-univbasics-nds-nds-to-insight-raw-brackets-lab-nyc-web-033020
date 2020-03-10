@@ -17,7 +17,7 @@ def directors_totals(nds)
     while movie_index < movie_max do
       result =
         movie_index+=1
-end
+      end
 director_index+=1
 end
   return result
